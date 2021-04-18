@@ -1,0 +1,134 @@
+<!-- Template File For New Pages/Conversions
+
+	Information included in these comments. not 100% complete but a real good start for what you want.
+	-snuffy
+TL;DR - everything in this file is needed so use it for boilerplate
+-->
+<!doctype html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+	<link rel="shortcut icon" href="./assets/sitelogo.png" type="image/x-icon">
+	<link rel="stylesheet" href="./css/flexboxgrid.css" type="text/css" />
+
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+	<meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0" />
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+
+	<title>[PAGE NAME]</title>
+</head>
+<!-- Body of the page:
+
+	http://flexboxgrid.com/ for docs
+
+	generally for flex your main concept is
+	<semantic element>
+		<div class="row">
+			<div class="col-xxxxx">
+				<...>[content]</...>
+			</div>
+		</div>
+	</semantic element>
+
+	Any sizing / major content adjustments should be done through flexboxgrid's classes and utilities.
+	Otherwise things will get a little funky
+	start of sidebar
+	\/\/\/\/\/\/
+-->
+
+<body>
+	<div class="row">
+		<div class="sidebar col">
+			<sidebar class="sidebar-container">
+				<br />
+				<div class="side-heading text"><a style="color: #FFFFFF" href="index.html">Introduction</a></div>
+				<div class="side-heading text"><a style="color: #FFFFFF" href="snowden.html">The Whistle Heard Around
+						The
+						World</a>
+					<br><br>
+					<strong style="color: #FFFFFF; font-size: larger">Government Spies</strong>
+					<ul style="list-style-type:disc">
+						<li><a href="who.html">Who's Watching?</a></li>
+						<li><a href="how.html">How Are They Watching?</a></li>
+						<li><a href="results.html">What Have They Seen?</a></li>
+					</ul>
+					<strong style="color: #FFFFFF; font-size: larger">Corporate Lies</strong>
+					<ul style="list-style-type:disc">
+						<li><a href="corporations.html">The Other Pair Of Eyes</a></li>
+						<li><a href="advertising.html">The Other Set Of Lies</a></li>
+					</ul>
+					<strong style="color: #FFFFFF; font-size: larger">Privacy Resources</strong>
+					<ul style="list-style-type:disc">
+						<li><a href="https://www.eff.org">EFF.org</a></li>
+						<li><a href="https://www.fsf.org/">Free Software Foundation</a></li>
+						<li><a href="https://safing.io/">Safing Privacy Network</a></li>
+						<li><a href="https://www.privacytools.io/">PrivacyTools.io</a></li>
+						<li><a href="https://privacytools.seas.harvard.edu/">Harvard Privacy Tools</a></li>
+					</ul>
+				</div>
+				<div class="side-heading text">
+					<a style="color: #FFFFFF" href="warning.html">Are You Safe?</a><br>
+					<a style="color: #FFFFFF" href="references.html">References</a><br>
+					<a style="color: #FFFFFF" href="https://github.com/Mili-NT">My Github</a>
+				</div>
+			</sidebar>
+		</div>
+
+
+		<!-- END OF SIDEBAR BELOW IS WHERE YOUR BODY CONTENT GOES
+			The main element is needed - dont put body content outside of it, footers and other things like
+			that are cool to do
+		-->
+
+
+		<div class="mx-auto">
+			<main>
+				<header>
+					<div class="row">
+						<div class="col hero"> <img src="assets/camera.png" style="float: left;" id="heroimg"
+								alt="logo">
+							<img src="assets/camera_right.png" alt="logo" id="heroimg" style="float: right;">
+							<H1 style="text-align: center">You May Have Nothing To Hide, But There Is Much To Fear
+							</H1>
+							<H5>The Whistle Heard Around The World</H5>
+						</div>
+					</div>
+				</header>
+				<!-- END OF HEADER - BODY CONTENT  -->
+				<section class="box-container">
+					<content>
+						<div class="row">
+							<div class="cover-fill ">
+								<img type="image/jpg" src="assets/intro_quote.PNG" id="hero" width="600" height="250">
+							</div>
+							<div class="col-md-3">
+								<p>Content</p>
+							</div>
+							<div class="col-md-3">
+								<p>Content</p>
+							</div>
+							<div class="col-md-3">
+								<p>Content</p>
+							</div>
+							<div class="col">
+								<p>Content</p>
+							</div>
+						</div>
+					</content>
+				</section>
+				<!-- END OF MAIN -->
+			</main>
+			<!-- END OF BODY  -->
+		</div>
+
+
+</body>
+<!-- Finally the footer - have at it -->
+<footer>
+	<div class="footer-bottom">
+		<p>Author, Researcher, and Developer: Mili</p>
+	</div>
+</footer>
