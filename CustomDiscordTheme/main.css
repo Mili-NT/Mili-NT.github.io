@@ -44,7 +44,7 @@
   --textbox-markdown-syntax: var(--background);
 }
 
-/* --== Misc Recolors ==-- */
+/* --== Sidebar Stuff ==-- */
 .icon-1DeIlz{
   display:block;
   width:20px;
@@ -53,6 +53,31 @@
   -ms-flex:0 0 auto;
   flex:0 0 auto;
   color: var(--secondary-color);
+}
+.button-14-BFJ{
+  line-height:0;
+  width:32px;
+  height:32px;
+  display:-webkit-box;
+  display:-ms-flexbox;
+  display:flex;
+  -webkit-box-align:center;
+  -ms-flex-align:center;
+  align-items:center;
+  -webkit-box-pack:center;
+  -ms-flex-pack:center;
+  justify-content:center;
+  border-radius:4px;
+  position:relative;
+  color:var(--secondary-color)
+}
+.title-eS5yk3{
+  white-space:nowrap;
+  text-overflow:ellipsis;
+  overflow:hidden;
+  color:var(--secondary-color);
+  line-height:18px;
+  font-weight:600
 }
 /* --== Style text-highlighting ==-- */
 ::selection {
