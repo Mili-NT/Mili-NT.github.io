@@ -1,9 +1,9 @@
-@import url('https://commandcrafterhd.gitlab.io/bates-discord-theme/css/usertags.css');
+@import url('https://mili-nt.github.io/CustomDiscordTheme/usertags.css');
 
 /* --== Define some general variables! ==-- */
 :root {
   --rgb-highlight: 4, 217, 255;
-  --highlight: rgb(var(--rgb-highlight));
+  --highlight: #00b0f4;
   --background: black;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
@@ -41,6 +41,8 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
+
+/* --== Misc Recolors ==-- */
 
 /* --== Style text-highlighting ==-- */
 ::selection {
