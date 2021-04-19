@@ -117,7 +117,10 @@
   color:var(--secondary-color);
 }
 .sprite-2iCowe{
-  filter: none;
+  filter: grayscale(0%);
+  color:var(--secondary-color);
+}
+.actionIcon-PgcMM2{
   color:var(--secondary-color);
 }
 .button-3AYNKb{
