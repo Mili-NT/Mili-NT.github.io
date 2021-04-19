@@ -44,19 +44,23 @@
   --textbox-markdown-syntax: var(--background);
 }
 
-/* --== Sidebar Stuff ==-- */
+/* --== Sidebar Icons ==-- */
 .icon-1DeIlz{
-  display:block;
-  width:20px;
-  height:20px;
-  -webkit-box-flex:0;
-  -ms-flex:0 0 auto;
-  flex:0 0 auto;
+  color: var(--secondary-color);
+}
+.icon-1tDorc{
   color: var(--secondary-color);
 }
 .modeSelected-346R90 .icon-1DeIlz,.modeSelected-346R90:hover .icon-1DeIlz,.modeUnread-1qO3K1 .icon-1DeIlz,.modeUnread-1qO3K1:hover .icon-1DeIlz{
   color:var(--secondary-color);
 }
+.modeMuted-onO3r- .icon-1DeIlz,.modeMuted-onO3r- .name-23GUGE{
+  color:var(--secondary-color)
+}
+.moreUsers-7v8yWY{
+  color: var(--secondary-color);
+}
+
 .button-14-BFJ{
   line-height:0;
   width:32px;
