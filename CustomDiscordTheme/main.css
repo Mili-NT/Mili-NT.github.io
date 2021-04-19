@@ -80,7 +80,13 @@
 .divider-3FBTu8{
   color: var(--secondary-color);
 }
-.topic-TCb_qw .expandable-9fI_e3 .container-1r6BKw{
+.topic-TCb_qw{
+  color: var(--rgb-highlight);
+}
+.expandable-9fI_e3{
+  color: var(--rgb-highlight);
+}
+.container-1r6BKw{
   color: var(--rgb-highlight);
 }
 /* --== Sidebar Icons ==-- */
@@ -997,7 +1003,7 @@
 }
 
 .icon-22AiRD g {
-  color: var(--highlight);
+  color: var(--secondary-color);
 }
 
 /* --== Style "Create Server" popout ==-- */
