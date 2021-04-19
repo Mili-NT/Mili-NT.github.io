@@ -2,7 +2,7 @@
 
 /* --== Define some general variables! ==-- */
 :root {
-  --rgb-highlight: 4, 217, 255;
+  --rgb-highlight: 153, 102, 204;
   --highlight: rgb(var(--rgb-highlight));
   --secondary-color: #04d9ff;
   ----channels-default: var(--secondary-color);
