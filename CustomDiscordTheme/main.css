@@ -65,7 +65,10 @@
 .icon-3cZ1F_{
   color: var(--secondary-color);
 }
-.clickable-3rdHwn .icon-22AiRD{
+.icon-22AiRD{
+  var(--secondary-color);
+}
+.clickable-3rdHwn{
   color: var(--secondary-color);
 }
 .name-1jkAdW{
@@ -78,7 +81,7 @@
   color: var(--secondary-color);
 }
 .topic-TCb_qw .expandable-9fI_e3 .container-1r6BKw{
-  color: var(--secondary-color);
+  color: var(--rgb-highlight);
 }
 /* --== Sidebar Icons ==-- */
 .icon-1DeIlz{
