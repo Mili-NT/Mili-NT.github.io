@@ -111,7 +111,7 @@
 }
 /* --== Style Chat Stuff --== */
 .placeholder-37qJjk,.slateTextArea-1Mkdgw .hljs-comment,.slateTextArea-1Mkdgw .hljs-quote{
-  color:var(--secondary-color);
+  color:var(--rgb-highlight);
 }
 .cozy-3raOZG .timestamp-3ZCmNB{
   color:var(--secondary-color);
@@ -143,6 +143,9 @@
 }
 .unreadPill-2HyYtt{
   color: var(--secondary-color);
+}
+.attachButtonPlus-jWVFah{
+  fill: var(--secondary-color);
 }
 /* --== Style text-highlighting ==-- */
 ::selection {
