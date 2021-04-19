@@ -4,13 +4,11 @@
 :root {
   --rgb-highlight: 4, 217, 255;
   --highlight: rgb(var(--rgb-highlight));
-  --secondary-color: #04d9ff;
-  ----channels-default: var(--secondary-color);
   --background: black;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
-  --dnd-color: var(--secondary-color);
+  --dnd-color: #FF0000;
   --streaming-color: #bc13fe;
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
@@ -44,16 +42,6 @@
   --textbox-markdown-syntax: var(--background);
 }
 
-/* --== Misc Recolors ==-- */
-.icon-1DeIlz{
-  display:block;
-  width:20px;
-  height:20px;
-  -webkit-box-flex:0;
-  -ms-flex:0 0 auto;
-  flex:0 0 auto;
-  color: var(--secondary-color);
-}
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
