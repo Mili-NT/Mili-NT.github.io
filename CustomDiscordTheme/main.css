@@ -86,6 +86,9 @@
   line-height:18px;
   font-weight:600
 }
+.subtext-3CDbHg{
+  color: var(--secondary-color);
+}
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
