@@ -110,8 +110,8 @@
   color: var(--secondary-color);
 }
 /* --== Style Chat Stuff --== */
-.slateTextArea-1Mkdgw{
-  color: var(--rgb-highlight);
+.placeholder-37qJjk,.slateTextArea-1Mkdgw .hljs-comment,.slateTextArea-1Mkdgw .hljs-quote{
+  color:var(--secondary-color);
 }
 .cozy-3raOZG .timestamp-3ZCmNB{
   color:var(--secondary-color);
