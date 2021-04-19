@@ -4,11 +4,13 @@
 :root {
   --rgb-highlight: 4, 217, 255;
   --highlight: rgb(var(--rgb-highlight));
+  --secondary-color: #04d9ff;
+  ----channels-default: var(--secondary-color);
   --background: black;
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
-  --dnd-color: #FF0000;
+  --dnd-color: var(--secondary-color);
   --streaming-color: #bc13fe;
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
@@ -41,7 +43,36 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
+/* --== Server Title ==-- */
+.name-1jkAdW{
+  color: var(--secondary-color);
+}
+/* --== Sidebar Icons ==-- */
+.icon-1DeIlz{
+  color: var(--secondary-color);
+}
+.icon-1tDorc{
+  color: var(--secondary-color);
+}
+.modeSelected-346R90 .icon-1DeIlz,.modeSelected-346R90:hover .icon-1DeIlz,.modeUnread-1qO3K1 .icon-1DeIlz,.modeUnread-1qO3K1:hover .icon-1DeIlz{
+  color:var(--secondary-color);
+}
+.modeMuted-onO3r- .icon-1DeIlz,.modeMuted-onO3r- .name-23GUGE{
+  color:var(--secondary-color)
+}
+.moreUsers-7v8yWY{
+  color: var(--secondary-color);
+}
 
+.button-14-BFJ{
+  color:var(--secondary-color)
+}
+.title-eS5yk3{
+  color:var(--secondary-color);
+}
+.subtext-3CDbHg{
+  color: var(--secondary-color);
+}
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
