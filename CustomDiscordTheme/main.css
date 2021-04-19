@@ -63,7 +63,7 @@
 .moreUsers-7v8yWY{
   color: var(--secondary-color);
 }
-
+/* --== Username/Mute/Deafen Stuff ==-- */
 .button-14-BFJ{
   color:var(--secondary-color)
 }
@@ -72,6 +72,10 @@
 }
 .subtext-3CDbHg{
   color: var(--secondary-color);
+}
+/* --== Style Chat Stuff --== */
+.placeholder-37qJjk,.slateTextArea-1Mkdgw .hljs-comment,.slateTextArea-1Mkdgw .hljs-quote{
+  color:var(--secondary-color)
 }
 /* --== Style text-highlighting ==-- */
 ::selection {

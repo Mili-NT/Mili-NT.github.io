@@ -1,0 +1,2 @@
+Main Shade of Purple: #9966CC
+Secondary Shade of Blue: #04d9ff
