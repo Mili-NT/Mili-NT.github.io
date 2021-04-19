@@ -43,7 +43,10 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
-
+/* --== Server Title ==-- */
+.name-1jkAdW{
+  color: var(--secondary-color);
+}
 /* --== Sidebar Icons ==-- */
 .icon-1DeIlz{
   color: var(--secondary-color);
@@ -62,29 +65,10 @@
 }
 
 .button-14-BFJ{
-  line-height:0;
-  width:32px;
-  height:32px;
-  display:-webkit-box;
-  display:-ms-flexbox;
-  display:flex;
-  -webkit-box-align:center;
-  -ms-flex-align:center;
-  align-items:center;
-  -webkit-box-pack:center;
-  -ms-flex-pack:center;
-  justify-content:center;
-  border-radius:4px;
-  position:relative;
   color:var(--secondary-color)
 }
 .title-eS5yk3{
-  white-space:nowrap;
-  text-overflow:ellipsis;
-  overflow:hidden;
   color:var(--secondary-color);
-  line-height:18px;
-  font-weight:600
 }
 .subtext-3CDbHg{
   color: var(--secondary-color);
