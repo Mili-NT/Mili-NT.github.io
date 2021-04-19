@@ -54,6 +54,9 @@
   flex:0 0 auto;
   color: var(--secondary-color);
 }
+.modeSelected-346R90 .icon-1DeIlz,.modeSelected-346R90:hover .icon-1DeIlz,.modeUnread-1qO3K1 .icon-1DeIlz,.modeUnread-1qO3K1:hover .icon-1DeIlz{
+  color:var(--secondary-color)
+}
 .button-14-BFJ{
   line-height:0;
   width:32px;
