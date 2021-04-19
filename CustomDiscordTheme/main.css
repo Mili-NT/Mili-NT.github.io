@@ -65,10 +65,7 @@
 .icon-3cZ1F_{
   color: var(--secondary-color);
 }
-.icon-22AiRD{
-  var(--secondary-color);
-}
-.clickable-3rdHwn{
+.clickable-3rdHwn .icon-22AiRD{
   color: var(--secondary-color);
 }
 .name-1jkAdW{
@@ -83,11 +80,8 @@
 .topic-TCb_qw{
   color: var(--rgb-highlight);
 }
-.expandable-9fI_e3{
-  color: var(--rgb-highlight);
-}
-.container-1r6BKw{
-  color: var(--rgb-highlight);
+.icon-22AiRD{
+  color: var(--secondary-color);
 }
 /* --== Sidebar Icons ==-- */
 .icon-1DeIlz{
@@ -117,7 +111,7 @@
 }
 /* --== Style Chat Stuff --== */
 .placeholder-37qJjk,.slateTextArea-1Mkdgw .hljs-comment,.slateTextArea-1Mkdgw .hljs-quote{
-  color:var(--secondary-color);
+  color:var(--rgb-highlight);
 }
 .cozy-3raOZG .timestamp-3ZCmNB{
   color:var(--secondary-color);
@@ -1003,7 +997,7 @@
 }
 
 .icon-22AiRD g {
-  color: var(--secondary-color);
+  color: var(--highlight);
 }
 
 /* --== Style "Create Server" popout ==-- */
