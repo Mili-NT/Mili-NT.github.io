@@ -10,7 +10,7 @@
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
-  --dnd-color: var(--secondary-color);
+  --dnd-color: #FF0000;
   --streaming-color: #bc13fe;
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
@@ -43,34 +43,15 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
-/* --== Server Title ==-- */
-.name-1jkAdW{
-  color: var(--secondary-color);
-}
-/* --== Sidebar Icons ==-- */
-.icon-1DeIlz{
-  color: var(--secondary-color);
-}
-.icon-1tDorc{
-  color: var(--secondary-color);
-}
-.modeSelected-346R90 .icon-1DeIlz,.modeSelected-346R90:hover .icon-1DeIlz,.modeUnread-1qO3K1 .icon-1DeIlz,.modeUnread-1qO3K1:hover .icon-1DeIlz{
-  color:var(--secondary-color);
-}
-.modeMuted-onO3r- .icon-1DeIlz,.modeMuted-onO3r- .name-23GUGE{
-  color:var(--secondary-color)
-}
-.moreUsers-7v8yWY{
-  color: var(--secondary-color);
-}
 
-.button-14-BFJ{
-  color:var(--secondary-color)
-}
-.title-eS5yk3{
-  color:var(--secondary-color);
-}
-.subtext-3CDbHg{
+/* --== Misc Recolors ==-- */
+.icon-1DeIlz{
+  display:block;
+  width:20px;
+  height:20px;
+  -webkit-box-flex:0;
+  -ms-flex:0 0 auto;
+  flex:0 0 auto;
   color: var(--secondary-color);
 }
 /* --== Style text-highlighting ==-- */
