@@ -10,7 +10,7 @@
   --close-button: var(--dnd-color) !important;
   --online-color: #39ff14;
   --afk-color: #FFFF33;
-  --dnd-color: #FF0000;
+  --dnd-color: var(--secondary-color);
   --streaming-color: #bc13fe;
   --rs-online-color: var(--online-color);
   --rs-idle-color: var(--afk-color);
