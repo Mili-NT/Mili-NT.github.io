@@ -43,7 +43,19 @@
   --channeltextarea-background: var(--background);
   --textbox-markdown-syntax: var(--background);
 }
-/* --== Server Title ==-- */
+/* --== Server Title And Header ==-- */
+.winButton-iRh8-Z{
+  color: var(--secondary-color);
+}
+.button-1w5pas path{
+  color: var(--secondary-color);
+}
+.icon-3cZ1F_{
+  color: var(--secondary-color);
+}
+.clickable-3rdHwn .icon-22AiRD{
+  color: var(--secondary-color);
+}
 .name-1jkAdW{
   color: var(--secondary-color);
 }
@@ -51,7 +63,6 @@
   color: var(--secondary-color);
 }
 .divider-3FBTu8{
-  width: 5px;
   color: var(--secondary-color);
 }
 .topic-TCb_qw{
