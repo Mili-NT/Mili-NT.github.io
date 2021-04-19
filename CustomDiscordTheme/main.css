@@ -138,6 +138,12 @@
 .colorDefault-2K3EoJ{
   color: var(--secondary-color);
 }
+.containerDefault--pIXnN.selected-3LIHYU .iconItem-F7GRxr,.iconVisibility-sTNpHs:focus-within .iconItem-F7GRxr,.iconVisibility-sTNpHs:focus .iconItem-F7GRxr,.iconVisibility-sTNpHs:hover .iconItem-F7GRxr{
+  color: var(--secondary-color);
+}
+.unreadPill-2HyYtt{
+  color: var(--secondary-color);
+}
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
