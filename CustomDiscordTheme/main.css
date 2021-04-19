@@ -50,6 +50,18 @@
 .button-1w5pas path{
   color: var(--secondary-color);
 }
+.searchBar-3dMhjb{
+  color: var(--secondary-color);
+}
+.barButtonBase-2uLO1z{
+  color: var(--secondary-color);
+}
+.barButtonAlt-mYL1lj{
+  color: var(--secondary-color);
+}
+.barButtonIcon-3t4V3d{
+  color: var(--secondary-color);
+}
 .icon-3cZ1F_{
   color: var(--secondary-color);
 }
@@ -99,7 +111,10 @@
 }
 /* --== Style Chat Stuff --== */
 .placeholder-37qJjk,.slateTextArea-1Mkdgw .hljs-comment,.slateTextArea-1Mkdgw .hljs-quote{
-  color:var(--secondary-color)
+  color:var(--secondary-color);
+}
+.cozy-3raOZG .timestamp-3ZCmNB{
+  color:var(--secondary-color);
 }
 /* --== Style text-highlighting ==-- */
 ::selection {
