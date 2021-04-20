@@ -148,6 +148,9 @@
   background: var(--rgb-highlight);
   border-radius: 0;
 }
+.subtitle-Nw1LLR, .container-UC8Ug1 div, .colorStandard-2KCXvj, .colorHeaderSecondary-3Sp3Ft{
+  color: var(--secondary-color);
+}
 /* --== Style text-highlighting ==-- */
 ::selection {
   background: var(--highlight);
