@@ -100,8 +100,8 @@
                     <a id="hm" class="list-group-item" onclick="OpenExternalBrowser('https://www.heromart.com/?utm_source=GameLauncher&utm_medium=leftmenu&utm_campaign=artix');"> <img src="/media/1296/icon-hm.png" alt="HeroMart">HeroMart</a>
 
                     <div class="hide"><a class="list-group-item" href="//battlegems.artix.com" target="_blank"> <img src="/media/1293/icon-bg.png" alt="BattleGems">BattleGems</a>
-                        <a class="list-group-item" href="//biobeasts.artix.com?utm_source=GameLauncher&utm_medium=leftmenu&utm_campaign=artix" target="_blank"> <img src="//www.aq.com/shared/images/offcanvas/BioBeasts.png" alt="BioBeasts">BioBeasts</a>
-                        <a class="list-group-item" href="//www.aqdragons.com?utm_source=GameLauncher&utm_medium=leftmenu&utm_campaign=artix" target="_blank"> <img src="//www.aq.com/shared/images/offcanvas/dragons.jpg" alt="Dragons">Dragons</a>
+                        <a class="list-group-item" href="/gamelauncher/biobeasts.artix.com?utm_source=GameLauncher&utm_medium=leftmenu&utm_campaign=artix" target="_blank"> <img src="//www.aq.com/shared/images/offcanvas/BioBeasts.png" alt="BioBeasts">BioBeasts</a>
+                        <a class="list-group-item" href="/gamelauncher/www.aqdragons.com?utm_source=GameLauncher&utm_medium=leftmenu&utm_campaign=artix" target="_blank"> <img src="//www.aq.com/shared/images/offcanvas/dragons.jpg" alt="Dragons">Dragons</a>
                     </div>
                     <ul class="list-group-item list-inline social text-center nopadding-bot">
                         <li><a class="btn btn-xs btn-social-icon btn-circle btn-facebook" onclick="OpenExternalBrowser('https://www.facebook.com/ArtixKrieger');"> <i class="fab fa-xs fa-facebook-f"></i></a></li>
