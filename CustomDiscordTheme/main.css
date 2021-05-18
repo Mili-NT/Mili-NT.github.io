@@ -143,10 +143,10 @@
   color: var(--secondary-color);
 }
 .full-motion .avatar-1BDn8e.clickable-1bVtEA {
-  border-radius: 0;
+  border-radius: 50%;
 }
 .full-motion .avatar-1BDn8e.clickable-1bVtEA:hover {
-  border-radius: 0;
+  border-radius: 50%;
 }
 .subtitle-Nw1LLR, .container-UC8Ug1 div, .colorStandard-2KCXvj, .colorHeaderSecondary-3Sp3Ft{
   color: var(--secondary-color);
