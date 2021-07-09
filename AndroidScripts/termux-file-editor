@@ -3,4 +3,6 @@ import os
 import sys
 if __name__ == '__main__':
     data = sys.argv[1]
+    with open("tmp.txt", 'w') as f:
+        f.write(data)
     os.system(f"nano {data}")
