@@ -1,0 +1,6 @@
+#!/bin/python3
+import os
+import sys
+if __name__ == '__main__':
+    data = sys.argv[1]
+    os.system(f"nano {data}")
