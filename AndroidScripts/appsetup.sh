@@ -1,4 +1,5 @@
 #!/data/data/com.termux/files/usr/bin/bash
+termux-setup-storage
 apt update && apt upgrade && pkg install wget && pkg install python &&e apt install python ffmpeg && pip install youtube-dl
 mkdir -p ~/.config/youtube-dl
 echo "# Default Output Directory and Pattern" > ~/.config/youtube-dl/config
