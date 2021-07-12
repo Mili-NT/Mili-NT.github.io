@@ -1,16 +1,26 @@
 #!/bin/python3
 import os
 import sys
+import logging
 import requests
 from bs4 import BeautifulSoup
+
+logging.basicConfig(filename='~/downloader.log',
+                    filemode='a',
+                    # stream=sys.stdout,
+                    format='%(asctime)s - (%(levelname)s) => %(message)s\n',
+                    datefmt='%d-%b-%y %H:%M:%S',
+                    level=logging.INFO)
 
 def correct_ifunny_link(video_url):
     rsp = requests.get(video_url)
     soup = BeautifulSoup(rsp.text, 'html.parser')
     meta = soup.find("meta", attrs={"property":"og:video:url"})
     return meta.attrs['content']
+
 if __name__ == "__main__":
     url = sys.argv[1]
     if "ifunny" in url.lower():
         url = correct_ifunny_link(url)
     os.system(f"youtube-dl {url}")
+    logging.log(20, url)
