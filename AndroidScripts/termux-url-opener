@@ -1,17 +1,33 @@
 #!/bin/python3
 import sys
+import piexif
 import logging
 import requests
 import subprocess
+from datetime import datetime
 from bs4 import BeautifulSoup
 
-logging.basicConfig(filename='~/downloader.log',
+logging.basicConfig(filename='downloader.log',
                     filemode='a',
                     # stream=sys.stdout,
                     format='%(asctime)s - (%(levelname)s) => %(message)s\n',
                     datefmt='%d-%b-%y %H:%M:%S',
                     level=logging.INFO)
 
+def set_creation_date(output):
+    output = output.decode("utf-8")
+    if "already been downloaded" in output.lower():
+        filepath = output.split("\n")[1].split("[download] ")[1].replace(" has already been downloaded", "")
+    else:
+        filepath = output.split("\n")[1].split("Destination: ")[1]
+    exif_dict = piexif.load(filepath)
+    piexif.remove(filepath)
+    new_date = datetime.now().strftime("%Y:%m:%d %H:%M:%S")
+    exif_dict['0th'][piexif.ImageIFD.DateTime] = new_date
+    exif_dict['Exif'][piexif.ExifIFD.DateTimeOriginal] = new_date
+    exif_dict['Exif'][piexif.ExifIFD.DateTimeDigitized] = new_date
+    exif_bytes = piexif.dump(exif_dict)
+    piexif.insert(exif_bytes, filepath)
 
 def correct_ifunny_link(video_url):
     rsp = requests.get(video_url)
@@ -24,5 +40,6 @@ if __name__ == "__main__":
     if "ifunny" in url.lower():
         url = correct_ifunny_link(url)
     cmd = ['youtube-dl', url]
-    output = subprocess.Popen(cmd, stdout=subprocess.PIPE ).communicate()[0]
+    out = subprocess.Popen(cmd, stdout=subprocess.PIPE ).communicate()[0]
+    set_creation_date(out)
     logging.log(20, url)
