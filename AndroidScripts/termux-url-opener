@@ -1,16 +1,17 @@
 #!/bin/python3
-import os
 import sys
 import logging
 import requests
+import subprocess
 from bs4 import BeautifulSoup
 
-logging.basicConfig(filename='downloader.log',
+logging.basicConfig(filename='~/downloader.log',
                     filemode='a',
                     # stream=sys.stdout,
                     format='%(asctime)s - (%(levelname)s) => %(message)s\n',
                     datefmt='%d-%b-%y %H:%M:%S',
                     level=logging.INFO)
+
 
 def correct_ifunny_link(video_url):
     rsp = requests.get(video_url)
@@ -22,5 +23,6 @@ if __name__ == "__main__":
     url = sys.argv[1]
     if "ifunny" in url.lower():
         url = correct_ifunny_link(url)
-    os.system(f"youtube-dl {url}")
+    cmd = ['youtube-dl', url]
+    output = subprocess.Popen(cmd, stdout=subprocess.PIPE ).communicate()[0]
     logging.log(20, url)
