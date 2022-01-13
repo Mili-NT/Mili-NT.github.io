@@ -212,7 +212,12 @@
 .content-3YMskv, .peopleList-3c4jOR {
   background-color: var(--background);
 }
-
+.peopleList-2VBrVI {
+  background-color: var(--background);
+}
+.tabBody-2dgbAs {
+  background-color: var(--background);
+}
 /* --== Style Spoiler warning ==-- */
 .theme-dark .spoilerWarning-2aAZq1 {
   background-color: var(--background);
@@ -968,6 +973,9 @@
 
 /* --== Style "Add Friend" page ==-- */
 .peopleColumn-29fq28 {
+  background-color: var(--background);
+}
+.tabBody-2dgbAs {
   background-color: var(--background);
 }
 .peopleColumn-1wMU14 {
