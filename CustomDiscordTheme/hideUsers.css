@@ -3,22 +3,22 @@
   --user-width: 240px;
 }
 
-.membersWrap-3NUR2t {
+.membersWrap-2h-GB4 {
   transition-duration: .4s;
   justify-content: unset;
   min-width: unset;
   width: var(--hidden-user-width);
 }
 
-.membersGroup-2eiWxl {
+.membersGroup-v9BXpm {
   height: 0px;
   transition-duration: .4s;
 }
 
-.membersWrap-3NUR2t:hover .membersGroup-2eiWxl{
+.membersWrap-2h-GB4:hover .membersGroup-v9BXpm{
   height: 40px;
 }
 
-.membersWrap-3NUR2t:hover {
+.membersWrap-2h-GB4:hover {
   width: var(--user-width);
 }
