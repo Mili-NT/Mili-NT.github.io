@@ -70,7 +70,7 @@
 .clickable-3rdHwn .icon-22AiRD{
   color: var(--secondary-color);
 }
-.name-1jkAdW{
+.name-3Uvkvr{
   color: var(--secondary-color);
 }
 .title-29uC1r{
@@ -632,7 +632,7 @@
   fill: var(--background);
 }
 
-.homeIcon-FuNwkv path {
+.homeIcon-r0w4ny path {
   fill: var(--highlight);
 }
 
@@ -678,21 +678,21 @@
 }
 
 /* --== Style channelgroup titles ==-- */
-.containerDefault-3tr_sE {
+.containerDefault-3TQ5YN {
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
-.containerDefault-3tr_sE div div {
+.containerDefault-3TQ5YN div div {
   color: var(--highlight);
 }
 
-.containerDefault-3tr_sE div div svg {
+.containerDefault-3TQ5YN div div svg {
   width: 0px;
 }
 
-.containerDefault-3tr_sE::before {
+.containerDefault-3TQ5YN::before {
   content: '\00a0';
   width: 100%;
   height: 2px;
@@ -701,7 +701,7 @@
   background: linear-gradient(90deg, rgba(var(--rgb-highlight), 0) 0%, rgba(var(--rgb-highlight), 1) 100%);
 }
 
-.containerDefault-3tr_sE::after {
+.containerDefault-3TQ5YN::after {
   content: '\00a0';
   width: 100%;
   height: 2px;
