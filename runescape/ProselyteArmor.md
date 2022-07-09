@@ -20,4 +20,5 @@
 Level 10 - *Enter The Abyss* (**1,000**) and *The Ascent of Arceuus* (**500**) for a total of **1,500**
 
 Level 30 - *The Eyes of Glouphrie* (**6,000**) and *Temple of the Eye* (**9,210**) for a total of **15,210**
+
 Resulting Level: 32 (**16,710**)
